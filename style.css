@@ -1,0 +1,401 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+/* font-family: 'Big Shoulders Display', cursive;
+
+font-family: 'Open Sans', sans-serif;
+
+font-family: 'Poppins', sans-serif;
+
+font-family: 'Source Serif 4', serif; */
+body {
+  font-size: 18px;
+}
+
+.sec1 {
+  background: url(./images/bg-hero-desktop.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section>div {
+  padding: 20px 30px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+}
+
+.nav-btn button {
+  padding: 10px 40px;
+  border-radius: 25px;
+  background: white;
+  font-weight: 600;
+  box-shadow: 0 4px 8px 0 rgba(12, 12, 12, 0.089), 0 6px 10px 0 rgba(43, 43, 43, 0.19);
+}
+
+.hero-sec {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.hero-sec>div {
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.hero h1,
+.hero p {
+  margin-bottom: 30px;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+.hero-btn {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hero button {
+  background: hsl(322, 100%, 66%);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.sec2,
+.sec3,
+.sec4,
+.sec5 {
+  display: flex;
+  justify-content: center;
+  padding: 20px 30px;
+}
+
+.grow,
+.flowing,
+.your {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background: white;
+  border-radius: 20px;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(12, 12, 12, 0.089), 0 6px 10px 0 rgba(43, 43, 43, 0.19);
+}
+
+.grow>div,
+.flowing>div,
+.your>div {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 20px 50px;
+}
+
+.grow-content {
+  order: 1;
+}
+
+.grow-img {
+  order: 2;
+}
+
+.your-content {
+  order: 1;
+}
+
+.your-img {
+  order: 2;
+}
+
+.grow h2,
+.flowing h2,
+.your h2 {
+  margin-bottom: 30px;
+}
+
+.grow p,
+.flowing p,
+.your p {
+  line-height: 1.7;
+}
+
+.sec5 {
+  margin-top: 100px;
+}
+
+.pre-footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 60%;
+  border-radius: 20px;
+  padding: 50px 0;
+  background: white;
+  margin-bottom: -100px;
+  box-shadow: 0 4px 8px 0 rgba(12, 12, 12, 0.089), 0 6px 10px 0 rgba(43, 43, 43, 0.19);
+}
+
+.pre-footer h2 {
+  font-size: 2.3rem;
+  margin-bottom: 35px;
+}
+
+.pre-footer button {
+  background: hsl(322, 100%, 66%);
+  color: white;
+  padding: 25px 70px;
+  border: 0;
+  border-radius: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  box-shadow: 0 4px 8px 0 rgba(12, 12, 12, 0.089), 0 6px 10px 0 rgba(43, 43, 43, 0.19);
+}
+
+footer {
+  background: #00252e;
+  color: white;
+  padding: 30px 40px;
+}
+
+.inner-footer1 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  padding: 100px 40px 0 40px;
+}
+
+.inner1 {
+  width: 30%;
+}
+
+.inner1>div {
+  margin-bottom: 30px;
+}
+
+.inner-footer1>div:not(:firt-child) {
+  width: 15%;
+}
+
+.f-logo {
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 0 50px;
+}
+
+.f-logo>div {
+  width: 20%;
+}
+
+.locate,
+.phone,
+.email {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+.locate img,
+.phone img,
+.email img {
+  margin-right: 30px;
+}
+
+.inner-footer2 {
+  text-align: right;
+  margin: 30px 0;
+}
+
+.nav1 a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 10px 15px;
+}
+
+.social {
+  display: flex;
+  justify-content: start;
+}
+
+.social i {
+  padding: 10px;
+  border: 1px solid white;
+  margin-right: 20px;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.social i:first-child {
+  padding: 10px 14px;
+}
+
+@media only screen and (max-width: 375px) {
+  section>div {
+    padding: 20px 10px;
+  }
+
+  .sec1 {
+    background: url(./images/bg-hero-mobile.svg);
+  }
+
+  .logo {
+    width: 30%;
+  }
+
+  .nav-btn button {
+    padding: 7px 30px;
+  }
+
+  .hero h1 {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .hero p {
+    text-align: center;
+  }
+
+  .hero-sec>div {
+    width: 100%;
+  }
+
+  .hero-btn {
+    justify-content: center;
+  }
+
+  .hero button {
+    padding: 15px 40px;
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .sec2,
+  .sec3,
+  .sec4,
+  .sec5 {
+    padding: 20px 30px;
+  }
+
+  .grow,
+  .flowing,
+  .your {
+    justify-content: center;
+    border-radius: 20px;
+    width: 100%;
+  }
+
+  .grow-content {
+    order: 2;
+  }
+
+  .grow-img {
+    order: 1;
+  }
+
+  .your-content {
+    order: 2;
+  }
+
+  .your-img {
+    order: 1;
+  }
+
+  .grow>div,
+  .flowing>div,
+  .your>div {
+    width: 100%;
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+  .sec5 {
+    padding: 20px 15px;
+  }
+
+  .pre-footer {
+    width: 100%;
+    padding: 50px 0;
+  }
+
+  .pre-footer h2 {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+  }
+
+  .pre-footer button {
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+
+  footer {
+    padding: 30px 15px;
+  }
+
+  .inner-footer1 {
+    margin-top: 30px;
+    padding: 100px 0 0 0;
+  }
+
+  .f-logo {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 0 15px;
+  }
+
+  .f-logo>div {
+    width: 60%;
+  }
+
+  .inner1 {
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+
+  .nav1,
+  .social {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .social {
+    justify-content: center;
+  }
+
+  .inner-footer1>div:not(:firt-child) {
+    width: 100%;
+  }
+
+  .inner-footer2 {
+    text-align: center;
+    margin: 0 0 0 0;
+  }
+}
